@@ -6,3 +6,4 @@ edition = "2021"
 [dependencies]
 wry = "0.45"
 tao = "0.30"
+openssl-sys = { version = "0.9", features = ["vendored"] }
